@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Quiz Maker</h1>
+    <div id="quiz-creation">
+      <h2>Create a Quiz</h2>
+      <input type="text" id="quiz-title" placeholder="Quiz Title">
+      <div id="questions-container"></div>
+      <button id="add-question-btn">Add Question</button>
+      <button id="save-quiz-btn">Save Quiz</button>
+    </div>
+    <div id="quiz-taking" style="display:none;">
+      <h2 id="take-quiz-title"></h2>
+      <form id="take-quiz-form"></form>
+      <button id="submit-quiz-btn">Submit Answers</button>
+    </div>
+    <div id="quiz-result" style="display:none;">
+      <h2>Quiz Result</h2>
+      <div id="result-summary"></div>
+      <button id="retake-quiz-btn">Retake Quiz</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html> 
